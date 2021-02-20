@@ -76,9 +76,9 @@
 		compatible = "jedec,spi-nor";
 		reg = <0>;
 		spi-max-frequency = <25000000>;
-		broken-flash-reset;
+		#broken-flash-reset;
 		m25p,fast-read;
-		broken-flash-reset;
+		#broken-flash-reset;
 
 		partitions {
 			compatible = "fixed-partitions";
